@@ -10,7 +10,7 @@ Live **Markdown preview** for Neovim with first-class **Mermaid diagram** suppor
 - **LaTeX math** — inline `$...$` and display `$$...$$` rendered via KaTeX
 - **Syntax highlighting** for code blocks (highlight.js)
 - Dark / Light theme toggle with colored heading accents
-- **Optional Rust-powered rendering** — use [`mermaid-rs-renderer`](https://github.com/mermaid-rs/mermaid-rs-renderer) for ~400x faster mermaid diagrams
+- **Optional Rust-powered rendering** — use [`mermaid-rs-renderer`](https://github.com/1jehuang/mermaid-rs-renderer) for ~400x faster mermaid diagrams
 - **Zero external dependencies** — no npm, no Node.js, just Neovim + your browser
 - Powered by [`live-server.nvim`](https://github.com/selimacerbas/live-server.nvim) (pure Lua HTTP server)
 
@@ -189,7 +189,7 @@ Rendered preview (scroll preserved, no flicker)
 - **Neovim** 0.9+
 - **[live-server.nvim](https://github.com/selimacerbas/live-server.nvim)** — pure Lua HTTP server (no npm)
 - **Tree-sitter** with the **Markdown** parser (recommended for mermaid block extraction)
-- **[mermaid-rs-renderer](https://github.com/mermaid-rs/mermaid-rs-renderer)** (optional) — `cargo install mermaid-rs-renderer` for ~400x faster mermaid rendering. Set `mermaid_renderer = "rust"` in config to enable.
+- **[mermaid-rs-renderer](https://github.com/1jehuang/mermaid-rs-renderer)** (optional) — `cargo install mermaid-rs-renderer` for ~400x faster mermaid rendering. Set `mermaid_renderer = "rust"` in config to enable.
 
 Browser-side libraries are loaded from CDN (cached by your browser):
 - [markdown-it](https://github.com/markdown-it/markdown-it) — Markdown parser
